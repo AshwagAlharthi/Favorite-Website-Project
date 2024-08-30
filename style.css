@@ -58,7 +58,6 @@
   
   .main-content {
     display: inline-block;
-    height: 120vh;
     background-image: url("https://www.dosgames.com/imgs/heh2.gif");
     width: 100vw;
     padding-top: 3vh;
@@ -114,18 +113,32 @@
   }
   
   
-  .bottom-navbar{
+  .footer{
    background-color: #ffffff;
    width:100vw;
    text-align: center
   }
 
-  .bottom-nav-list->li->button{
-    background-color: #0000aa; 
+  .footer-nav-list>li>a>button{
+    background-color: #0000aa;
+    color: #ffffff; 
+    font-size: 1.3em;
+    padding: 0.2em  0.2em  0.2em  0.2em;
   }
 
-  
 
+
+  .footer-nav-list>li{
+   display: inline-block;
+  }
+  
+  .footer-nav-list{
+    display: inline-block;
+  }
+  .footer-nav-list>p{
+    display: inline-block;
+    margin: 5px;
+  }
  
   
   
