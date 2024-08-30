@@ -2,12 +2,21 @@
     margin: 0%;
     padding: 0%;
   }
-  .logo {
+
+   
+  .navbar {
+    width: 100vw;
+
+    background-image: url("https://www.dosgames.com/imgs/bg-logo.gif");
+    height: 16vh;
+  }
+  
+
+  .nav-logo {
     display: inline-block;
   }
-  .content {
+  .dosgames-container {
     width: 54%;
-    height: 100%;
     border: 2px solid black;
     background-color: white;
     text-align: left;
@@ -26,7 +35,7 @@
   .list > li > img {
     width: 10vw;
   }
-  .sidebar {
+  .sidebars {
     
     margin-left: 15vw;
     margin-right: 2vw;
@@ -36,7 +45,7 @@
     
   }
   
-  .sidebar >div {
+  .sidebars >div {
     margin-bottom: 15px;
     background-color: #0000aa;
   }
@@ -58,14 +67,7 @@
   .main-content > div {
     display: inline-block;
   }
-  
-  .navbar {
-    width: 100vw;
-  
-    background-image: url("https://www.dosgames.com/imgs/bg-logo.gif");
-    height: 16vh;
-  }
-  
+ 
   ul {
     list-style: none;
   }
@@ -79,7 +81,7 @@
     margin-left: 10vw;
   }
   
-  .search {
+  .searchbar-container {
     background-color: #555555;
     text-align: right;
     color: #ffffff;
@@ -87,7 +89,7 @@
     margin: 15px;
     display: inline-block;
   }
-  .search > div > input {
+  .searchbar-container > div > input {
     background-color: #222222;
     height: 4vh;
   }
@@ -112,7 +114,19 @@
   }
   
   
+  .bottom-navbar{
+   background-color: #ffffff;
+   width:100vw;
+   text-align: center
+  }
+
+  .bottom-nav-list->li->button{
+    background-color: #0000aa; 
+  }
+
   
+
+ 
   
   
   
