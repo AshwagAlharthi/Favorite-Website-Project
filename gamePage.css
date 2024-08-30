@@ -17,3 +17,67 @@
     color: gray;
     font-weight: lighter;
 }
+
+.table-aboutGame {
+    width: 25vw;
+    /* background-color: blue; */
+}
+
+.tableHeader {
+    width: 9vw;
+    /* background-color: gray; */
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: right;
+    padding-right: 1vw;
+
+}
+
+td {
+    height: 5vh;
+    vertical-align: top;
+    font-size: 0.9rem;
+    padding: 0.3vh 0;
+
+}
+
+.tdSmallText {
+    color: #42464a;
+    font-size: 0.8rem;
+}
+
+.li-tags {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.a-contact-img:hover {
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.button-updateInfo {
+    border: 1px solid #aaa;
+    color: #555;
+    background-color: #fff;
+    font-size: 0.8rem;
+    padding: .2em .65em .3em .65em;
+    transition: all .25s;
+}
+
+.button-updateInfo:hover {
+    color: #fff;
+    background-color: rgb(174, 173, 173);
+}
+
+button:hover {
+    cursor: pointer;
+}
