@@ -7,6 +7,8 @@
   --main-blue: #0000aa;
   --secondary-blue: #005;
 
+  --teal :#0aa;
+
   --main-green: #080;
   --secondary-green: #006600;
   --highlight-green: #44bb44;
@@ -46,6 +48,7 @@ a:hover {
   src: url("WebPlus_IBM_VGA_8x16.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  
 }
 
 .center {
@@ -251,16 +254,34 @@ padding-bottom: 1.7vh;
 }
 
 .footer-nav-list button{
+    border: 0px solid black ;
   background-color: var(--main-blue);
   color: #ffffff;
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-weight: 400;
-  padding:0.2em 0.5em 0.2em 0.5em;
+  padding:0.3em 0.6em 0.3em 0.5em;
     margin: 1em 0em 1em 0.1em;
   text-transform: uppercase;
   transition: 0.3s;
   font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+
+.teal button{
+    background-color: var(--teal);
+}
+
+.teal button::before{
+    content: "\f000";
+    font-family: FontAwesome;
+}
+
+.blue button{
+   
+
+    background-color: var(--main-blue);
+
+}
+
 
 .footer-nav-list button:hover{
 
