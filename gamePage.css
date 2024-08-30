@@ -34,7 +34,7 @@
 }
 
 td {
-    height: 5vh;
+    height: 4vh;
     vertical-align: top;
     font-size: 0.85rem;
     padding: 0.3vh 0;
@@ -101,7 +101,7 @@ button:hover {
     text-shadow: 2px 1px 4px black;
 }
 
-.button-download:hover{
+.button-download:hover {
     background: #0a0;
 }
 
@@ -109,8 +109,40 @@ button:hover {
     display: inline-block;
     vertical-align: middle;
 }
+
+.button-li-img {
+    width: 2vw;
+    padding-top: 0.4rem;
+}
+
+.button-li-img2 {
+    padding-top: 0.4rem;
+}
+
 .exe-file {
     font-family: pxplus_ibm_vga9regular;
     font-size: 0.77rem;
     text-transform: uppercase;
+}
+
+.button-play {
+    font-family: pxplus_ibm_vga8regular, monospace;
+    box-shadow: 3px 3px 9px 0 rgba(0, 0, 0, .3);
+    width: 20vw;
+    height: 6vh;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #007bff;
+    font-size: 1rem;
+}
+
+.button-play:hover {
+    background-color: #007bff;
+}
+
+.a-play:hover {
+    text-decoration: none;
+    color: #fff;
 }
