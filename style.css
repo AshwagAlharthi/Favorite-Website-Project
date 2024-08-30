@@ -268,12 +268,9 @@ padding-bottom: 1.7vh;
 
 .teal button{
     background-color: var(--teal);
-}
-
-.teal button::before{
-    content: "\f000";
     font-family: FontAwesome;
 }
+
 
 .blue button{
    
@@ -302,5 +299,34 @@ padding-bottom: 1.7vh;
 .footer-nav-list > p {
   display: inline-block;
   margin: 5px;
+}
+
+
+.facebook-button:before{
+    content: "\f09a";
+    padding: 10px;
+}
+
+.RSS-button:before{
+    content: "\f09e";
+    padding: 10px;
+}
+
+.youtube-button:before{
+    content: "\f167";
+    padding: 10px;
+}
+
+.twitter-button:before{
+    content: "\f099";
+    padding: 10px;
+}
+
+.footer h3 ,h4, h5, h6{
+    font-weight: 400;
+}
+
+.footer{
+   padding-bottom: 15px;
 }
 /* footer styling section --------------------------------*/
