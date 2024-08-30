@@ -149,12 +149,12 @@ body {
 
 }
 
-.game-list > li > img {
+.game-list img {
   width:100%;
  
 }
 
-.list-imgs-shadow >li>img{
+.list-imgs-shadow img{
     box-shadow: 0px 0px 12px -2px rgb(126, 126, 126)
 }
 
@@ -194,7 +194,7 @@ padding-bottom: 1.7vh;
 }
 
 
-.game-catagories-sidebar >ul>li:hover{
+.game-catagories-sidebar  li:hover{
     background-color: var(--highlight-blue);
     cursor: pointer; 
 
@@ -230,7 +230,7 @@ padding-bottom: 1.7vh;
   background-color: var(--main-green);
 }
 
-.site-content-sidebar >ul>li:hover{
+.site-content-sidebar li:hover{
       background-color: var(--highlight-green);
       cursor: pointer; 
   
@@ -243,15 +243,6 @@ padding-bottom: 1.7vh;
 /* sidebar styling section --------------------------------*/
 
 
-
-.round-gotop{
-    text-align: center;
-   ;
-}
-
-.round-gotop:before{
-    content: "\f139"
-}
 /* Footer styling section --------------------------------*/
 .footer {
   background-color: #ffffff;
@@ -259,13 +250,26 @@ padding-bottom: 1.7vh;
   text-align: center;
 }
 
-.footer-nav-list > li > a > button {
+.footer-nav-list button{
   background-color: var(--main-blue);
   color: #ffffff;
-  font-size: 1.3em;
-  padding: 0.2em 0.2em 0.2em 0.2em;
+  font-size: 0.8em;
+  font-weight: 400;
+  padding:0.2em 0.5em 0.2em 0.5em;
+    margin: 1em 0em 1em 0.1em;
   text-transform: uppercase;
+  transition: 0.3s;
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+
+.footer-nav-list button:hover{
+
+    background-color: black;
+    box-shadow: 0px 0px 9px #727272;
+  
+   
+  }
+  
 
 .footer-nav-list > li {
   display: inline-block;
