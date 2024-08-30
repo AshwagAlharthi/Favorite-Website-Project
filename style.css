@@ -81,6 +81,7 @@ body {
 
   background-image: url("https://www.dosgames.com/imgs/bg-logo.gif");
   height: 16vh;
+  position: relative;
 }
 
 .nav-main-content > li {
@@ -95,6 +96,8 @@ body {
   padding: 10px;
   margin: 15px;
   display: inline-block;
+  position: absolute;
+  right: 10vw;
 }
 .searchbar-container > div > input {
   background-color: #222222;
@@ -131,6 +134,7 @@ body {
   width: 54%;
   background-color: white;
   padding: 25px;
+  margin-bottom: 5vw;
   
 }
 
@@ -147,16 +151,24 @@ body {
 
 .game-list > li > img {
   width:100%;
-  box-shadow: 0px 0px 12px -2px rgb(126, 126, 126)
+ 
 }
 
+.list-imgs-shadow >li>img{
+    box-shadow: 0px 0px 12px -2px rgb(126, 126, 126)
+}
+
+
   .game-list-subtitle{
-font-size: 1.6em;
+font-size: 1.3em;
 padding-top: 1.7vh;
 padding-bottom: 1.7vh;
   }
 
 
+
+  
+  
 /* dos games styling section --------------------------------*/
 
 /* sidebar styling section --------------------------------*/
@@ -230,6 +242,16 @@ padding-bottom: 1.7vh;
 }
 /* sidebar styling section --------------------------------*/
 
+
+
+.round-gotop{
+    text-align: center;
+   ;
+}
+
+.round-gotop:before{
+    content: "\f139"
+}
 /* Footer styling section --------------------------------*/
 .footer {
   background-color: #ffffff;
