@@ -86,3 +86,31 @@ button:hover {
     display: inline-block;
     vertical-align: top;
 }
+
+.button-download {
+    font-family: pxplus_ibm_vga8regular, monospace;
+    font-size: 0.9rem;
+    box-shadow: 3px 3px 9px 0 rgba(0, 0, 0, .3);
+    background: #070;
+    border-color: transparent;
+    color: #fff;
+    padding: 0 0.5em;
+    margin-top: 2.5em;
+    width: 20vw;
+    height: 6vh;
+    text-shadow: 2px 1px 4px black;
+}
+
+.button-download:hover{
+    background: #0a0;
+}
+
+.button-li {
+    display: inline-block;
+    vertical-align: middle;
+}
+.exe-file {
+    font-family: pxplus_ibm_vga9regular;
+    font-size: 0.77rem;
+    text-transform: uppercase;
+}
