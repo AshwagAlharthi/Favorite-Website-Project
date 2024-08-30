@@ -3,6 +3,11 @@
     margin: 0%;
     padding: 0%;
   }
+  :root {
+   --main-blue:#0000aa;
+    --secondary-blue: #005;
+  }
+
 
 @font-face {
     font-family: 'IBM VGA 8x16';
@@ -60,16 +65,22 @@
   
   .sidebars >div {
     margin-bottom: 15px;
-    background-color: #0000aa;
+    background-color:var(--main-blue);
     color: #ffffff;
     
   }
   
   .game-catagories-sidebar{
-    box-shadow: 0px 0px 0px 2px #0000aa;
+    box-shadow: 0px 0px 0px 2px var(--main-blue);
     border: 1px groove #aaaaaa;
    
-    
+  }
+
+  .game-catagories-sidebar>p{
+    background-color: var(--secondary-blue);
+    margin: 7px;
+    padding: 5px;
+    padding-left: 10px;
   }
 
   .yellow-arrow >li::before{
@@ -142,7 +153,7 @@
   }
 
   .footer-nav-list>li>a>button{
-    background-color: #0000aa;
+    background-color: var(--main-blue);
     color: #ffffff; 
     font-size: 1.3em;
     padding: 0.2em  0.2em  0.2em  0.2em;
