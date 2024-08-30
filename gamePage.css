@@ -1,0 +1,19 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.gameTitle-container {
+    width: 95%;
+    font-size: 2rem;
+    position: relative;
+    top: 3vh;
+    left: 1.3vw;
+}
+
+.gameTitle-span {
+    float: right;
+    color: gray;
+    font-weight: lighter;
+}
