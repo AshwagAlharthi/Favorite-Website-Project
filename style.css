@@ -6,6 +6,11 @@
   :root {
    --main-blue:#0000aa;
     --secondary-blue: #005;
+
+    --main-green:#080;
+    --secondary-green:#006600;
+
+    --side-bar-shadow:#464646;
   }
 
   
@@ -36,6 +41,12 @@ body {
     width: 100%;
     font-family:  BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
   }
+
+  
+  .gray-border{
+    border: 1px groove #aaaaaa;
+  }
+
   /* General styling section*/
 
 
@@ -141,24 +152,36 @@ body {
   }
   
   .sidebars >div {
-    margin-bottom: 15px;
-    background-color:var(--main-blue);
+    margin-bottom: 5vh;
     color: #ffffff;
     
+ 
   }
   
-  .game-catagories-sidebar{
-    box-shadow: 0px 0px 0px 2px var(--main-blue);
-    border: 1px groove #aaaaaa;
-   
+  .catagories-shadow{
+    box-shadow: 0px 2px 0px 4px var(--main-blue),15px 15px 0px 4px var(--side-bar-shadow)
   }
 
-  .game-catagories-sidebar>p{
-    background-color: var(--secondary-blue);
+  .game-catagories-sidebar{
+
+    background-color: var(--main-blue);
+   }
+
+  .sidebar-list-subtitle{
     margin: 7px;
     padding: 5px;
     padding-left: 10px;
   }
+
+  .dark-green{
+    background-color: var(--secondary-green);
+  }
+
+  .dark-blue{
+    background-color: var(--secondary-blue);
+ 
+  }
+  
 
   .yellow-arrow >li::before{
     content: url("https://www.dosgames.com/imgs/bullet.gif");
@@ -166,6 +189,21 @@ body {
   
   }
  
+  .random-game-sidebar{
+    text-align: center;
+    padding: 10px;
+    background-color:var(--main-blue);
+  }
+  .random-game-sidebar >img{
+    width: 90%;
+  }
+  .site-content-sidebar{
+    background-color: var(--main-green);
+  }
+
+  .site-nav-shadow{
+    box-shadow: 0px 0px 0px 4px var(--main-green),15px 15px 0px 4px var(--side-bar-shadow)
+  }
    /* sidebar styling section --------------------------------*/ 
 
       /* Footer styling section --------------------------------*/ 
@@ -180,19 +218,22 @@ body {
     color: #ffffff; 
     font-size: 1.3em;
     padding: 0.2em  0.2em  0.2em  0.2em;
+    text-transform:uppercase
   }
 
 
 
   .footer-nav-list>li{
    display: inline-block;
+  
   }
   
   .footer-nav-list{
     display: inline-block;
+   
   }
   .footer-nav-list>p{
     display: inline-block;
     margin: 5px;
   }
-    /* sidebar styling section --------------------------------*/ 
+    /* footer styling section --------------------------------*/ 
