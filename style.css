@@ -1,239 +1,238 @@
 /* General styling section*/
 * {
-    margin: 0%;
-    padding: 0%;
-  }
-  :root {
-   --main-blue:#0000aa;
-    --secondary-blue: #005;
+  margin: 0%;
+  padding: 0%;
+}
+:root {
+  --main-blue: #0000aa;
+  --secondary-blue: #005;
 
-    --main-green:#080;
-    --secondary-green:#006600;
+  --main-green: #080;
+  --secondary-green: #006600;
+  --highlight-green: #44bb44;
+ 
 
-    --side-bar-shadow:#464646;
-  }
-
-  
-  .dos-font{
-    font-family: 'Verite 8x16', 'IBM VGA 8x16', monospace; 
-    font-size: 16px;
-    line-height: 16px;
-  }
-  
-
-  ul {
-    list-style: none;
-  }
-
-@font-face {
-    font-family: 'IBM VGA 8x16';
-    src: url("WebPlus_IBM_VGA_8x16.woff") format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-.center{
-    text-align: center;
+  --side-bar-shadow: #464646;
+  --highlight-blue: #5555ff
 }
 
- 
+.dos-font {
+  font-family: "Verite 8x16", "IBM VGA 8x16", monospace;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "IBM VGA 8x16";
+  src: url("WebPlus_IBM_VGA_8x16.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.center {
+  text-align: center;
+}
+
 body {
-    width: 100%;
-    font-family:  BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
-  }
+  width: 100%;
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
 
-  
-  .gray-border{
-    border: 1px groove #aaaaaa;
-  }
+.gray-border {
+  border: 1px groove #aaaaaa;
+}
 
-  /* General styling section*/
+/* General styling section*/
 
+.main-content {
+  display: inline-block;
+  background-image: url("https://www.dosgames.com/imgs/heh2.gif");
+  width: 100vw;
+  padding-top: 3vh;
+}
 
+.main-content > div {
+  display: inline-block;
+}
 
-  .main-content {
-    display: inline-block;
-    background-image: url("https://www.dosgames.com/imgs/heh2.gif");
-    width: 100vw;
-    padding-top: 3vh;
-  }
-  
-  .main-content > div {
-    display: inline-block;
-  }
- 
-   /* Navbar section -----------------------------------------*/
-  .navbar-container  {
-    width: 100vw;
+/* Navbar section -----------------------------------------*/
+.navbar-container {
+  width: 100vw;
 
-    background-image: url("https://www.dosgames.com/imgs/bg-logo.gif");
-    height: 16vh;
-  }
-  
- 
-  .nav-main-content > li {
-    display: inline-block;
-    margin-left: 10vw;
-  }
-  
-  .searchbar-container {
-    background-color: #555555;
-    text-align: right;
-    color: #ffffff;
-    padding: 10px;
-    margin: 15px;
-    display: inline-block;
-  }
-  .searchbar-container > div > input {
-    background-color: #222222;
-    height: 4vh;
-  }
-  
-  .go-button {
-    background-color: #00c400;
-    border: 1px solid #00c400;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 17px;
-  
-    height: 4vh;
-    width: 5vh;
+  background-image: url("https://www.dosgames.com/imgs/bg-logo.gif");
+  height: 16vh;
+}
+
+.nav-main-content > li {
+  display: inline-block;
+  margin-left: 10vw;
+}
+
+.searchbar-container {
+  background-color: #555555;
+  text-align: right;
+  color: #ffffff;
+  padding: 10px;
+  margin: 15px;
+  display: inline-block;
+}
+.searchbar-container > div > input {
+  background-color: #222222;
+  height: 4vh;
+}
+
+.go-button {
+  background-color: #00c400;
+  border: 1px solid #00c400;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+
+  height: 4vh;
+  width: 5vh;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #00c400;
+}
+
+.go-button-container {
+  display: inline-block;
+}
+
+.nav-logo {
+  display: inline-block;
+}
+
+/* Navbar section -----------------------------------------*/
+
+/* dos games styling section --------------------------------*/
+.dosgames-container {
+  width: 54%;
+  background-color: white;
+  padding: 25px;
+}
+
+.game-list > li {
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+}
+
+.game-list > li > img {
+  width: 10vw;
+}
+
+.game-list >li>a {
     text-decoration: none;
-    text-shadow: 0px 1px 0px #00c400;
   }
   
-  .go-button-container {
-    display: inline-block;
+  .game-list >li>a :hover {
+    text-decoration: underline;
   }
   
-  
+/* dos games styling section --------------------------------*/
+
+/* sidebar styling section --------------------------------*/
+.sidebars {
+  margin-left: 15vw;
+  margin-right: 2vw;
+  float: left;
+  width: 15vw;
+}
+
+.sidebars > div {
+  margin-bottom: 5vh;
+  color: #ffffff;
+}
+
+.catagories-shadow {
+  box-shadow: 0px 2px 0px 4px var(--main-blue),
+    15px 15px 0px 4px var(--side-bar-shadow);
+}
+
+.game-catagories-sidebar {
+  background-color: var(--main-blue);
+}
 
 
+.game-catagories-sidebar >ul>li:hover{
+    background-color: var(--highlight-blue);
+    cursor: pointer; 
 
-  .nav-logo {
-    display: inline-block;
-  }
+}
+.sidebar-list-subtitle {
+  margin: 7px;
+  padding: 5px;
+  padding-left: 10px;
+}
 
+.dark-green {
+  background-color: var(--secondary-green);
+}
 
-    /* Navbar section -----------------------------------------*/
+.dark-blue {
+  background-color: var(--secondary-blue);
+}
 
-   /* dos games styling section --------------------------------*/ 
-  .dosgames-container {
-    width: 54%;
-    border: 2px solid black;
-    background-color: white;
-    padding: 25px;
-  }
- 
-  .game-list > li {
-  
-    display: inline-block;
-    text-align: center;
-    width: 20%;
-  }
-  
-  .game-list > li > img {
-    width: 10vw;
-  }
+.yellow-arrow > li::before {
+  content: url("https://www.dosgames.com/imgs/bullet.gif");
+  padding-right: 5px;
+}
 
-  /* dos games styling section --------------------------------*/ 
+.random-game-sidebar {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--main-blue);
+}
+.random-game-sidebar > img {
+  width: 90%;
+}
+.site-content-sidebar {
+  background-color: var(--main-green);
+}
 
-  /* sidebar styling section --------------------------------*/ 
-  .sidebars {
-    
-    margin-left: 15vw;
-    margin-right: 2vw;
-    float: left;
-    width: 15vw;
-  
-    
-  }
-  
-  .sidebars >div {
-    margin-bottom: 5vh;
-    color: #ffffff;
-    
- 
-  }
-  
-  .catagories-shadow{
-    box-shadow: 0px 2px 0px 4px var(--main-blue),15px 15px 0px 4px var(--side-bar-shadow)
-  }
-
-  .game-catagories-sidebar{
-
-    background-color: var(--main-blue);
-   }
-
-  .sidebar-list-subtitle{
-    margin: 7px;
-    padding: 5px;
-    padding-left: 10px;
-  }
-
-  .dark-green{
-    background-color: var(--secondary-green);
-  }
-
-  .dark-blue{
-    background-color: var(--secondary-blue);
- 
-  }
-  
-
-  .yellow-arrow >li::before{
-    content: url("https://www.dosgames.com/imgs/bullet.gif");
-    padding-right: 5px;
+.site-content-sidebar >ul>li:hover{
+      background-color: var(--highlight-green);
+      cursor: pointer; 
   
   }
- 
-  .random-game-sidebar{
-    text-align: center;
-    padding: 10px;
-    background-color:var(--main-blue);
-  }
-  .random-game-sidebar >img{
-    width: 90%;
-  }
-  .site-content-sidebar{
-    background-color: var(--main-green);
-  }
 
-  .site-nav-shadow{
-    box-shadow: 0px 0px 0px 4px var(--main-green),15px 15px 0px 4px var(--side-bar-shadow)
-  }
-   /* sidebar styling section --------------------------------*/ 
+.site-nav-shadow {
+  box-shadow: 0px 0px 0px 4px var(--main-green),
+    15px 15px 0px 4px var(--side-bar-shadow);
+}
+/* sidebar styling section --------------------------------*/
 
-      /* Footer styling section --------------------------------*/ 
-  .footer{
-   background-color: #ffffff;
-   width:100vw;
-   text-align: center
-  }
+/* Footer styling section --------------------------------*/
+.footer {
+  background-color: #ffffff;
+  width: 100vw;
+  text-align: center;
+}
 
-  .footer-nav-list>li>a>button{
-    background-color: var(--main-blue);
-    color: #ffffff; 
-    font-size: 1.3em;
-    padding: 0.2em  0.2em  0.2em  0.2em;
-    text-transform:uppercase
-  }
+.footer-nav-list > li > a > button {
+  background-color: var(--main-blue);
+  color: #ffffff;
+  font-size: 1.3em;
+  padding: 0.2em 0.2em 0.2em 0.2em;
+  text-transform: uppercase;
+}
 
+.footer-nav-list > li {
+  display: inline-block;
+}
 
-
-  .footer-nav-list>li{
-   display: inline-block;
-  
-  }
-  
-  .footer-nav-list{
-    display: inline-block;
-   
-  }
-  .footer-nav-list>p{
-    display: inline-block;
-    margin: 5px;
-  }
-    /* footer styling section --------------------------------*/ 
+.footer-nav-list {
+  display: inline-block;
+}
+.footer-nav-list > p {
+  display: inline-block;
+  margin: 5px;
+}
+/* footer styling section --------------------------------*/
