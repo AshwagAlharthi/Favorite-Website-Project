@@ -349,6 +349,9 @@ button:hover {
 }
 
 .p-game-last {
-    font-size: 80%;
+    font-size: 0.7rem;
     font-weight: 400;
+    position: relative;   
+    left: 3vw;
+    width: 95%;
 }
