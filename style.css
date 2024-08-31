@@ -112,7 +112,7 @@ body {
   margin-right: 10px;
 }
 
-.searchbar-container > div > input {
+.searchbar-container > form > input {
   background-color: #222222;
   height: 4vh;
 }
@@ -131,6 +131,10 @@ body {
   text-decoration: none;
   text-shadow: 0px 1px 0px #00c400;
 }
+
+.go-button:hover{
+    background-color: #09de09;;
+} 
 
 .go-button-container {
   display: inline-block;
