@@ -3,8 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home page</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
 
   <body>
@@ -14,15 +18,17 @@
           <img src="https://www.dosgames.com/imgs/logo.png" alt="logo" />
         </div>
 
-        <div class="searchbar-container">
-          <div>
+        <div class="searchbar-container gray-border">
+          <form>
             <label>Search </label>
 
             <input type="text" placeholder="Enter Your Terms" />
             <div class="go-button-container">
-              <button type="button" class="go-button">Go</button>
+              <button type="submit" formaction="search.html" class="go-button">
+                Go
+              </button>
             </div>
-          </div>
+          </form>
 
           <div>
             <a> Advanced Searchs </a>
@@ -31,167 +37,350 @@
       </div>
     </nav>
     <div class="main-content">
-      <div class="sidebars">
-        <div class="game-catagories-sidebar">
-          <ul>
-            <li>entry --------</li>
-            <li>entry --------</li>
-            <li>entry --------</li>
-            <li>entry --------</li>
-            <li>entry --------</li>
-            <li>entry --------</li>
-            <li>entry --------</li>
-            <li>entry --------</li>
-            <li>entry --------</li>
-            <li>entry --------</li>
-            <li>entry --------</li>
-            <li>entry --------</li>
-            <li>entry --------</li>
-            <li>entry --------</li>
-            <li>entry --------</li>
+      <div class="sidebars dos-font">
+        <div class="game-catagories-sidebar gray-border catagories-shadow">
+          <p class="sidebar-list-subtitle dark-blue">Game Categories</p>
+          <ul class="yellow-arrow">
+            <li onclick="location.href='index.html';">Additions</li>
+            <li onclick="location.href='index.html';">3D Shooting (FPS)</li>
+            <li onclick="location.href='index.html';">Action</li>
+            <li onclick="location.href='index.html';">Adventure</li>
+            <li onclick="location.href='index.html';">Ball & Paddle</li>
+            <li onclick="location.href='index.html';">Classic / Arcade</li>
+            <li onclick="location.href='index.html';">Driving & Racing</li>
+            <li onclick="location.href='index.html';">Educational / Kids</li>
+            <li onclick="location.href='index.html';">Game Creation Systems</li>
+            <li onclick="location.href='index.html';">Miscellaneous</li>
+            <li onclick="location.href='index.html';">Puzzle</li>
+            <li onclick="location.href='index.html';">Role Playing (RPG)</li>
+            <li onclick="location.href='index.html';">Shoot-em-up</li>
+            <li onclick="location.href='index.html';">Sidescrolling</li>
+            <li onclick="location.href='index.html';">Simulation / Strategy</li>
+            <li onclick="location.href='index.html';">Sports</li>
+            <li onclick="location.href='index.html';">Tetris Style</li>
+            <li onclick="location.href='index.html';">
+              Traditional (Board Games)
+            </li>
+            <br />
+            <li onclick="location.href='index.html';">ALL Games</li>
+            <li onclick="location.href='index.html';">Most Popular Games</li>
+            <li onclick="location.href='index.html';">Random Game!</li>
+            <li onclick="location.href='index.html';">Advanced Search</li>
+            <br />
+          </ul>
+          <p class="sidebar-list-subtitle dark-blue">Special Collections</p>
+          <ul class="yellow-arrow">
+            <li onclick="location.href='index.html';">Author List</li>
+            <li onclick="location.href='index.html';">Utilities & Apps</li>
+            <li onclick="location.href='index.html';">Multiplayer</li>
+            <li onclick="location.href='index.html';">Level Editors</li>
+            <li onclick="location.href='index.html';">Textmode / ASCII</li>
+            <li onclick="location.href='index.html';">Android Version</li>
+            <li onclick="location.href='index.html';">Apple iOS Version</li>
           </ul>
         </div>
         <div class="random-game-sidebar"></div>
 
-        <div class="site-content-sidebar">
-          <ul>
-            <li>div2 +++++++++</li>
-            <li>div2 +++++++++</li>
-            <li>div2 +++++++++</li>
-            <li>div2 +++++++++</li>
-            <li>div2 +++++++++</li>
-            <li>div2 +++++++++</li>
-            <li>div2 +++++++++</li>
-            <li>div2 +++++++++</li>
-            <li>div2 +++++++++</li>
-            <li>div2 +++++++++</li>
-            <li>div2 +++++++++</li>
-            <li>div2 +++++++++</li>
-            <li>div2 +++++++++</li>
-            <li>div2 +++++++++</li>
-            <li>div2 +++++++++</li>
+        <div class="site-content-sidebar gray-border site-nav-shadow">
+          <p class="sidebar-list-subtitle dark-green">Interact</p>
+          <ul class="yellow-arrow">
+            <li onclick="location.href='index.html';">Discussion Forum</li>
+            <li onclick="location.href='index.html';">Blog</li>
+            <li onclick="location.href='index.html';">Facebook</li>
+            <li onclick="location.href='index.html';">Twitter</li>
+            <li onclick="location.href='index.html';">YouTube</li>
+            <li onclick="location.href='index.html';">How You Can Help!</li>
+            <li onclick="location.href='index.html';">Contact</li>
+          </ul>
+          <p class="sidebar-list-subtitle dark-green">Site Content</p>
+
+          <ul class="yellow-arrow">
+            <li onclick="location.href='index.html';">FAQ</li>
+            <li onclick="location.href='index.html';">About this Site</li>
+            <li onclick="location.href='index.html';">DOSBox Guide</li>
+            <li onclick="location.href='index.html';">Guess the Game!</li>
+            <li onclick="location.href='index.html';">Game Bytes Magazine</li>
+            <li onclick="location.href='index.html';">Game Company Catalogs</li>
+            <li onclick="location.href='index.html';">Logo Archive</li>
+            <li onclick="location.href='index.html';">Credits & Thanks</li>
+            <li onclick="location.href='index.html';">Links</li>
+            <li onclick="location.href='index.html';">
+              Gog.com Good Old Games
+            </li>
+            <li onclick="location.href='index.html';">
+              Free Classic Flash Games
+            </li>
           </ul>
         </div>
       </div>
 
       <div class="dosgames-container">
-        <ul class="list">
-          <li>
-            <img
-              src="https://www.dosgames.com/screens/xsum.png"
-              alt="game image"
-            />
-            <p>game title</p>
-          </li>
-          <li>
-            <img
-              src="https://www.dosgames.com/screens/xsum.png"
-              alt="game image"
-            />
-            <p>game title</p>
-          </li>
-          <li>
-            <img
-              src="https://www.dosgames.com/screens/xsum.png"
-              alt="game image"
-            />
-            <p>game title</p>
-          </li>
-          <li>
-            <img
-              src="https://www.dosgames.com/screens/xsum.png"
-              alt="game image"
-            />
-            <p>game title</p>
-          </li>
-          <li>
-            <img
-              src="https://www.dosgames.com/screens/xsum.png"
-              alt="game image"
-            />
-            <p>game title</p>
-          </li>
+        <h4 style="text-align: center">
+          Download / play 2,103 free DOS games here!
+        </h4>
+        <h3 class="game-list-subtitle">Latest Games Added</h3>
+        <div>
+          <ul class="game-list center list-imgs-shadow">
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/acg.png"
+                alt="game image"
+              />
+              <a href="index.html"><p>Anzu Castle Gracula</p></a>
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/xsum.png"
+                alt="game image"
+              />
+              <a href="index.html"><p>X-Sums</p></a>
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/gunmetal.png"
+                alt="game image"
+              />
+              <a href="index.html"><p>Gunmetal</p></a>
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/pacman_silverman.png"
+                alt="game image"
+              />
+              <a href="index.html"><p>PACMAN (Silverman)</p></a>
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/maximus.png"
+                alt="game image"
+              />
+              <a href="index.html"><p>Maximus</p></a>
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/borders.png"
+                alt="game image"
+              />
+              <a href="index.html"><p>Borders</p></a>
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/ukraine.png"
+                alt="game image"
+              />
+              <a href="index.html"><p>Ukraine Deadlock</p></a>
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/egaint.png"
+                alt="game image"
+              />
+              <a href="index.html"><p>Egaint</p></a>
+            </li>
+          </ul>
+        </div>
+        <a class="link">See more recently added games</a>
+        <h3 class="game-list-subtitle">Most Popular Games All-Time</h3>
 
-          <li>
-            <img
-              src="https://www.dosgames.com/screens/xsum.png"
-              alt="game image"
-            />
-            <p>game title</p>
-          </li>
-          <li>
-            <img
-              src="https://www.dosgames.com/screens/xsum.png"
-              alt="game image"
-            />
-            <p>game title</p>
-          </li>
-          <li>
-            <img
-              src="https://www.dosgames.com/screens/xsum.png"
-              alt="game image"
-            />
-            <p>game title</p>
-          </li>
-          <li>
-            <img
-              src="https://www.dosgames.com/screens/xsum.png"
-              alt="game image"
-            />
-            <p>game title</p>
-          </li>
-          <li>
-            <img
-              src="https://www.dosgames.com/screens/xsum.png"
-              alt="game image"
-            />
-            <p>game title</p>
-          </li>
-        </ul>
+        <div>
+          <ul class="game-list center list-imgs-shadow">
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/ssf2t.png"
+                alt="game image"
+              />
+              <p>Super Street Fighter II Turbo</p>
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/xmen.png"
+                alt="game image"
+              />
+              <p>X-Men: Children of the Atom</p>
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/doom.gif"
+                alt="game image"
+              />
+              <p>DOOM</p>
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/ckong.gif"
+                alt="game image"
+              />
+              <p>CHAMP Kong</p>
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/duke3d.gif"
+                alt="game image"
+              />
+              <p>Duke Nukem 3D</p>
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/mspac.gif"
+                alt="game image"
+              />
+              <p>Ms Pacman PC</p>
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/wolf3d.png"
+                alt="game image"
+              />
+              <p>Wolfenstein 3D</p>
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/screens/quake.gif"
+                alt="game image"
+              />
+              <p>Quake</p>
+            </li>
+          </ul>
+        </div>
+        <a href="" class="link">See more popular games</a>
+        <h3 class="game-list-subtitle">About DOSGames.com</h3>
+        <p>
+          This website was founded in January 1999 and since then has provided
+          an archive of free (shareware, freeware, etc) games for the DOS
+          platform. Nowadays <a href="" class="link">DOSBox</a> provides an easy
+          way to play these games on modern computers.
+        </p>
+        <br />
+        <p>
+          DOSGames.com has been online for over <u>25 years!</u> To put this
+          into context, this site was founded seven years before Twitter, six
+          years before YouTube, five years before Facebook, and only a couple of
+          months after Google incorporated!
+        </p>
+        <br />
+        <p>
+          The purpose for this website is to provide a source to download free
+          (shareware, freeware, public domain, etc) and legal (no warez or
+          abandonware) DOS games. There are many sites that provide games, but
+          most include non-DOS games or also include illegally distributed
+          files.
+        </p>
+        <br />
+        <p>
+          The website was founded by me,
+          <a href="" class="link">Darren Hewer</a>. I originally started the
+          website because back then, DOS games were becoming increasingly
+          difficult to find. There were few other websites focused solely on DOS
+          games. So I started one, since I loved playing the games that I grew
+          up playing. Back in those days, there was no DOSBox, so sometimes even
+          getting the games running was a chore involving carefully tweaking
+          settings, add-on utilities like VDMSound, or even BOOT DISKS (gasps!).
+          (Nowadays unless you want to build your own dedicated DOS PC, you can
+          use our <a href="" class="link">DOSBOX</a> Guide to run most DOS
+          software on your modern computer.)
+        </p>
+        <h4>
+          If you're interested in learning about the history of this website,
+          see the <a href="" class="link">About DOSGames.com</a> page.
+        </h4>
+        <h3 class="game-list-subtitle">DOSGames Sponsors</h3>
+
+        <div>
+          <ul class="game-list">
+            <li>
+              <img
+                src="https://www.dosgames.com/imgs/sponsors/dotcom-monitor.png"
+                alt="game image"
+              />
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/imgs/sponsors/loadview.png"
+                alt="game image"
+              />
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/imgs/sponsors/fme-logo-ed.png"
+                alt="game image"
+              />
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/imgs/sponsors/webhostingbuddy.png"
+                alt="game image"
+              />
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/imgs/sponsors/driven-coffee.png"
+                alt="game image"
+              />
+            </li>
+            <li>
+              <img
+                src="https://www.dosgames.com/imgs/sponsors/sgt.png"
+                alt="game image"
+              />
+            </li>
+          </ul>
+        </div>
       </div>
+
       <div class="footer">
         <div>
-            <ul class="footer-nav-list">
-                <li>
-                  <a href=""><button>test</button></a>
-                </li>
-                <li>
-                  <a href=""><button>test</button></a>
-                </li>
-                <li>
-                  <a href=""><button>test</button></a>
-                </li>
-                <li>
-                  <a href=""><button>test</button></a>
-                </li>
-                <li>
-                  <a href=""><button>test</button></a>
-                </li>
-              </ul>
+          <ul class="footer-nav-list blue">
+            <li>
+              <a href=""><button>home</button></a>
+            </li>
+            <li>
+              <a href=""><button>Games</button></a>
+            </li>
+            <li>
+              <a href=""><button>Forum</button></a>
+            </li>
+            <li>
+              <a href=""><button>FAQS</button></a>
+            </li>
+            <li>
+              <a href=""><button>LINKS</button></a>
+            </li>
+            <li>
+              <a href=""><button>CONTACT</button></a>
+            </li>
+          </ul>
 
-              <ul class="footer-nav-list">
-                <li>
-                  <a href=""><button>test</button></a>
-                </li>
-                <li>
-                  <a href=""><button>test</button></a>
-                </li>
-                <li>
-                  <a href=""><button>test</button></a>
-                </li>
-                <li>
-                  <a href=""><button>test</button></a>
-                </li>
-                <li>
-                  <a href=""><button>test</button></a>
-                </li>
-              </ul>
+          <ul class="footer-nav-list teal">
+            <li>
+              <a href=""><button class="facebook-button"></button></a>
+            </li>
+            <li>
+              <a href=""><button class="twitter-button"></button></a>
+            </li>
+            <li>
+              <a href=""><button class="youtube-button"></button></a>
+            </li>
+            <li>
+              <a href=""><button class="RSS-button"></button></a>
+            </li>
+          </ul>
         </div>
-        <h4>Lorem ipsum dolor sit amet consectetur molestiae, ipsum dicta!</h4>
-        <p>s;dl;sld</p>
-        <p>sawt43634</p>
-        <p>34662</p>
-        <p>wetwetwetw</p>
+        <h4>
+          Enjoying DOSGames.com?
+          <a href="" class="link">Learn how you can help support it!</a>
+        </h4>
+        <h5>Copyright © Darren Hewer 2024.</h5>
+        <h5>Hosted by <a href=" " class="link">Liquidweb.</a></h5>
+        <h5>
+          View
+          <a href="" class="link"
+            >the DOSGames.com Disclaimer & Privacy Policy.
+          </a>
+        </h5>
+        <h5>
+          Thank you for visiting dosgames.com, and I hope you will enjoy your
+          stay. <a href="" class="link"> Contact me here.</a>
+        </h5>
       </div>
     </div>
   </body>

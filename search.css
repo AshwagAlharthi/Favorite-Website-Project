@@ -1,0 +1,158 @@
+/* General styling section*/
+
+
+
+.random-game-sidebar > p {
+  color: #00ffee;
+}
+
+.float-l {
+  float: left;
+}
+
+.align-top {
+  /* float: inline-end */
+  vertical-align: top;
+}
+
+.text-align-left-tr tr {
+  text-align: left;
+}
+
+.left {
+  text-align: left;
+}
+
+
+fieldset {
+  padding-bottom: 15px;
+}
+select {
+  float: right;
+  width: 15vw;
+  height: 4vh;
+}
+
+td {
+  padding-top: 14px;
+  vertical-align: middle;
+}
+
+
+/* General styling section*/
+
+
+/* input form section  --------------------------------*/
+.game-info-container * {
+  margin-bottom: 15px;
+}
+.game-info-container > h4 > span {
+  font-size: 0.55em;
+  padding-left: 15px;
+}
+.results-table img {
+  margin: 20px;
+  box-shadow: 0px 2px 12px 2px #898989;
+}
+
+.results-table h4 {
+  background-color: #e7e7e7;
+  font-size: 1.5em;
+  padding-left: 15px;
+}
+
+.results-table h3 {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.results-table a:not(.game-title) {
+  color: rgb(12, 33, 216);
+  padding-left: 10px;
+}
+
+
+.results-table td {
+  border-bottom: 1px solid #dedede;
+  margin-bottom: 10px;
+}
+
+.game-title {
+  color: black;
+}
+
+.input-form-list > li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.input-form-list img {
+  width: 100%;
+}
+
+.input-form-list label {
+  margin-right: 10px;
+}
+
+.input-table {
+  text-align: end;
+  font-size: 1em;
+  font-weight: 400;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+.checkbox-row {
+  padding-left: 20px;
+}
+
+.hide-button {
+  background-color: transparent;
+  border: 1px solid #299fff;
+  cursor: pointer;
+  color: #3f89ff;
+  font-family: Arial;
+  font-size: 1em;
+  padding: 7px;
+  text-shadow: 0px 0px 0px #2ee3ff;
+  transition: 0.3;
+  margin: 10px;
+}
+
+.hide-button:hover {
+  background-color: #3f89ff;
+  color: #ffffff;
+}
+
+.apply-button {
+  background-color: #0089eb;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 10px;
+  border: 0px solid black;
+}
+
+/* input form section  --------------------------------*/
+ 
+
+/* page div sesction--------------------------------*/
+.pages-container {
+  background-color: var(--main-blue);
+  box-shadow: 0px 0px 0px 7px var(--main-blue), 6px 10px 0px 7px #8b8b8b;
+  color: #ffffff;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.pages-container > h4 {
+  text-align: center;
+}
+.pages-container li {
+  text-align: center;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}

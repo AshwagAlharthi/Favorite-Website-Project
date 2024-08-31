@@ -1,145 +1,329 @@
 * {
-    margin: 0%;
-    padding: 0%;
-  }
+  margin: 0%;
+  padding: 0%;
+}
+:root {
+  --main-blue: #0000aa;
+  --secondary-blue: #005;
 
-   
-  .navbar {
-    width: 100vw;
+  --teal: #0aa;
 
-    background-image: url("https://www.dosgames.com/imgs/bg-logo.gif");
-    height: 16vh;
-  }
-  
+  --main-green: #080;
+  --secondary-green: #006600;
+  --highlight-green: #44bb44;
 
-  .nav-logo {
-    display: inline-block;
-  }
-  .dosgames-container {
-    width: 54%;
-    border: 2px solid black;
-    background-color: white;
-    text-align: left;
-  }
-  
-  body {
-    width: 100%;
-  }
-  
-  .list > li {
-    border: 2px solid red;
-    display: inline-block;
-    text-align: center;
-  }
-  
-  .list > li > img {
-    width: 10vw;
-  }
-  .sidebars {
-    
-    margin-left: 15vw;
-    margin-right: 2vw;
-    float: left;
-    width: 15vw;
-  
-    
-  }
-  
-  .sidebars >div {
-    margin-bottom: 15px;
-    background-color: #0000aa;
-  }
-  
-  .game-catagories-sidebar{
-    box-shadow: 0px 0px 0px 2px #0000aa;
-    border: 1px groove #aaaaaa;
-    
-  }
-  
-  .main-content {
-    display: inline-block;
-    background-image: url("https://www.dosgames.com/imgs/heh2.gif");
-    width: 100vw;
-    padding-top: 3vh;
-  }
-  
-  .main-content > div {
-    display: inline-block;
-  }
- 
-  ul {
-    list-style: none;
-  }
-  
-  /* .nav-content >li >img{
-   
-  } */
-  
-  .nav-content > li {
-    display: inline-block;
-    margin-left: 10vw;
-  }
-  
-  .searchbar-container {
-    background-color: #555555;
-    text-align: right;
-    color: #ffffff;
-    padding: 10px;
-    margin: 15px;
-    display: inline-block;
-  }
-  .searchbar-container > div > input {
-    background-color: #222222;
-    height: 4vh;
-  }
-  
-  .go-button {
-    background-color: #00c400;
-    border: 1px solid #00c400;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 17px;
-  
-    height: 4vh;
-    width: 5vh;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #00c400;
-  }
-  
-  .go-button-container {
-    display: inline-block;
-  }
-  
-  
-  .footer{
-   background-color: #ffffff;
-   width:100vw;
-   text-align: center
-  }
+  --side-bar-shadow: #464646;
+  --highlight-blue: #5555ff;
+}
 
-  .footer-nav-list>li>a>button{
-    background-color: #0000aa;
-    color: #ffffff; 
-    font-size: 1.3em;
-    padding: 0.2em  0.2em  0.2em  0.2em;
-  }
+.dos-font {
+  font-family: "Verite 8x16", "IBM VGA 8x16", monospace;
+  font-size: 16px;
+  line-height: 16px;
+}
 
+ul {
+  list-style: none;
+}
 
+a {
+  text-decoration: none;
+}
 
-  .footer-nav-list>li{
-   display: inline-block;
-  }
-  
-  .footer-nav-list{
-    display: inline-block;
-  }
-  .footer-nav-list>p{
-    display: inline-block;
-    margin: 5px;
-  }
- 
-  
-  
-  
+a:hover {
+  text-decoration: underline;
+}
+.link {
+  color: #007bff;
+}
+
+@font-face {
+  font-family: "IBM VGA 8x16";
+  src: url("WebPlus_IBM_VGA_8x16.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.center {
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.gray-border {
+  border: 1px groove #aaaaaa;
+}
+
+/* General styling section*/
+
+.main-content {
+  display: inline-block;
+  background-image: url("https://www.dosgames.com/imgs/heh2.gif");
+  width: 100vw;
+  padding-top: 3vh;
+}
+
+.main-content > div {
+  display: inline-block;
+}
+
+/* Navbar section -----------------------------------------*/
+.navbar-container {
+  width: 100vw;
+
+  background-image: url("https://www.dosgames.com/imgs/bg-logo.gif");
+  height: 16vh;
+  position: relative;
+}
+
+.nav-main-content > li {
+  display: inline-block;
+  margin-left: 10vw;
+}
+
+.nav-main-content {
+  text-align: right;
+  padding-right: 15vw;
+}
+
+.searchbar-container {
+  background-color: #555555;
+  text-align: right;
+  vertical-align: top;
+  color: #ffffff;
+  padding: 10px;
+  margin: 15px;
+  display: inline-block;
+  /* position: absolute; */
+  right: 10vw;
+  box-shadow: 0px 0px 0px 7px #555555;
+  margin-right: 10px;
+}
+
+.searchbar-container > form > input {
+  background-color: #222222;
+  height: 4vh;
+  color: white;
+}
+
+.go-button {
+  background-color: #00c400;
+  border: 1px solid #00c400;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+
+  height: 4vh;
+  width: 5vh;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #00c400;
+}
+
+.go-button:hover {
+  background-color: #09de09;
+}
+
+.go-button-container {
+  display: inline-block;
+}
+
+.nav-logo {
+  display: inline-block;
+  margin-right: 20px;
+  padding-right: 15px;
+}
+
+.search-header {
+  border-bottom: 1px solid grey;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+/* Navbar section -----------------------------------------*/
+
+/* dos games styling section --------------------------------*/
+.dosgames-container {
+  width: 50%;
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 5vw;
+}
+
+.game-list > li {
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  vertical-align: top;
+  padding-left: 1.9vw;
+  padding-bottom: 1.9vh;
+  padding-top: 1.9vh;
+}
+
+.game-list img {
+  width: 100%;
+}
+
+.list-imgs-shadow img {
+  box-shadow: 0px 0px 12px -2px rgb(126, 126, 126);
+}
+
+.game-list-subtitle {
+  font-size: 1.3em;
+  padding-top: 1.7vh;
+  padding-bottom: 1.7vh;
+}
+
+/* dos games styling section --------------------------------*/
+
+/* sidebar styling section --------------------------------*/
+.sidebars {
+  margin-left: 15vw;
+  margin-right: 2vw;
+  float: left;
+  width: 15vw;
+}
+
+.sidebars > div {
+  margin-bottom: 5vh;
+  color: #ffffff;
+}
+
+.catagories-shadow {
+  box-shadow: 0px 2px 0px 4px var(--main-blue),
+    15px 15px 0px 4px var(--side-bar-shadow);
+}
+
+.game-catagories-sidebar {
+  background-color: var(--main-blue);
+}
+
+.game-catagories-sidebar li:hover {
+  background-color: var(--highlight-blue);
+  cursor: pointer;
+}
+.sidebar-list-subtitle {
+  margin: 7px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.dark-green {
+  background-color: var(--secondary-green);
+}
+
+.dark-blue {
+  background-color: var(--secondary-blue);
+}
+
+.yellow-arrow > li::before {
+  content: url("https://www.dosgames.com/imgs/bullet.gif");
+  padding-right: 5px;
+}
+
+.random-game-sidebar {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--main-blue);
+}
+.random-game-sidebar > img {
+  width: 90%;
+}
+.site-content-sidebar {
+  background-color: var(--main-green);
+}
+
+.site-content-sidebar li:hover {
+  background-color: var(--highlight-green);
+  cursor: pointer;
+}
+
+.site-nav-shadow {
+  box-shadow: 0px 0px 0px 4px var(--main-green),
+    15px 15px 0px 4px var(--side-bar-shadow);
+}
+/* sidebar styling section --------------------------------*/
+
+/* Footer styling section --------------------------------*/
+.footer {
+  background-color: #ffffff;
+  width: 100vw;
+  text-align: center;
+}
+
+.footer-nav-list button {
+  border: 0px solid black;
+  background-color: var(--main-blue);
+  color: #ffffff;
+  font-size: 0.9em;
+  font-weight: 400;
+  padding: 0.3em 0.6em 0.3em 0.5em;
+  margin: 1em 0em 1em 0.1em;
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.teal button {
+  background-color: var(--teal);
+  font-family: FontAwesome;
+}
+
+.blue button {
+  background-color: var(--main-blue);
+}
+
+.footer-nav-list button:hover {
+  background-color: black;
+  box-shadow: 0px 0px 9px #727272;
+}
+
+.footer-nav-list > li {
+  display: inline-block;
+}
+
+.footer-nav-list {
+  display: inline-block;
+}
+.footer-nav-list > p {
+  display: inline-block;
+  margin: 5px;
+}
+
+.facebook-button:before {
+  content: "\f09a";
+  padding: 10px;
+}
+
+.RSS-button:before {
+  content: "\f09e";
+  padding: 10px;
+}
+
+.youtube-button:before {
+  content: "\f167";
+  padding: 10px;
+}
+
+.twitter-button:before {
+  content: "\f099";
+  padding: 10px;
+}
+
+.footer h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+.footer {
+  padding-bottom: 15px;
+}
+/* footer styling section --------------------------------*/
