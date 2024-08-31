@@ -54,6 +54,10 @@
   .center {
     text-align: center;
   }
+
+  .left{
+    text-align: left;
+  }
   
   body {
     width: 100%;
@@ -195,6 +199,7 @@
     text-align: end;
     font-size: 1em;
     font-weight: 400;
+    
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
   }
   
@@ -239,7 +244,20 @@ padding-left: 20px;
     color: #ffffff;
       
   }
+
+  .apply-button{
+    background-color: #0089eb;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 10px;
+    border: 0px solid black;
+
+  }
     
+  fieldset {
+    padding-bottom: 15px;
+    border-radius: 1px dotted black !important
+  }
   /* dos games styling section --------------------------------*/
   
   /* sidebar styling section --------------------------------*/
