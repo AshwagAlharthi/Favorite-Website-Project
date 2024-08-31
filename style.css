@@ -140,6 +140,14 @@
     margin: 5px;
   }
  
-  
+  /* linksPage */
+  .gameTitle-container {
+    width: 90%;
+    font-size: 2rem;
+    position: relative;
+    top: 3vh;
+    left: 3vw;
+}
+
   
   
