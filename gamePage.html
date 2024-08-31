@@ -1,81 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="gamePage.css">
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar">
-        <div class="nav-content">
-            <div class="nav-logo">
-                <img src="https://www.dosgames.com/imgs/logo.png" alt="logo" />
-            </div>
-
-            <div class="searchbar-container">
-                <div>
-                    <label>Search </label>
-
-                    <input type="text" placeholder="Enter Your Terms" />
-                    <div class="go-button-container">
-                        <button type="button" class="go-button">Go</button>
-                    </div>
-                </div>
-
-                <div>
-                    <a> Advanced Search </a>
-                </div>
-            </div>
+      <div class="nav-content">
+        <div class="nav-logo">
+          <img src="https://www.dosgames.com/imgs/logo.png" alt="logo" />
         </div>
+
+        <div class="searchbar-container gray-border">
+          <form>
+            <label>Search </label>
+
+            <input type="text" placeholder="Enter Your Terms" />
+            <div class="go-button-container">
+              <button type="submit" formaction="search.html" class="go-button">
+                Go
+              </button>
+            </div>
+          </form>
+
+          <div>
+            <a> Advanced Searchs </a>
+          </div>
+        </div>
+      </div>
     </nav>
-    <div class="main-content game-body-bg">
-        <div class="sidebars">
-            <div class="game-catagories-sidebar">
-                <ul>
-                    <li>entry --------</li>
-                    <li>entry --------</li>
-                    <li>entry --------</li>
-                    <li>entry --------</li>
-                    <li>entry --------</li>
-                    <li>entry --------</li>
-                    <li>entry --------</li>
-                    <li>entry --------</li>
-                    <li>entry --------</li>
-                    <li>entry --------</li>
-                    <li>entry --------</li>
-                    <li>entry --------</li>
-                    <li>entry --------</li>
-                    <li>entry --------</li>
-                    <li>entry --------</li>
-                </ul>
-            </div>
-            <div class="random-game-sidebar"></div>
-
-            <div class="site-content-sidebar">
-                <ul>
-                    <li>div2 +++++++++</li>
-                    <li>div2 +++++++++</li>
-                    <li>div2 +++++++++</li>
-                    <li>div2 +++++++++</li>
-                    <li>div2 +++++++++</li>
-                    <li>div2 +++++++++</li>
-                    <li>div2 +++++++++</li>
-                    <li>div2 +++++++++</li>
-                    <li>div2 +++++++++</li>
-                    <li>div2 +++++++++</li>
-                    <li>div2 +++++++++</li>
-                    <li>div2 +++++++++</li>
-                    <li>div2 +++++++++</li>
-                    <li>div2 +++++++++</li>
-                    <li>div2 +++++++++</li>
-                </ul>
-            </div>
+    <div class="main-content">
+      <div class="sidebars dos-font">
+        <div class="game-catagories-sidebar gray-border catagories-shadow">
+          <p class="sidebar-list-subtitle dark-blue">Game Categories</p>
+          <ul class="yellow-arrow">
+            <li onclick="location.href='index.html';">Additions</li>
+            <li onclick="location.href='index.html';">3D Shooting (FPS)</li>
+            <li onclick="location.href='index.html';">Action</li>
+            <li onclick="location.href='index.html';">Adventure</li>
+            <li onclick="location.href='index.html';">Ball & Paddle</li>
+            <li onclick="location.href='index.html';">Classic / Arcade</li>
+            <li onclick="location.href='index.html';">Driving & Racing</li>
+            <li onclick="location.href='index.html';">Educational / Kids</li>
+            <li onclick="location.href='index.html';">Game Creation Systems</li>
+            <li onclick="location.href='index.html';">Miscellaneous</li>
+            <li onclick="location.href='index.html';">Puzzle</li>
+            <li onclick="location.href='index.html';">Role Playing (RPG)</li>
+            <li onclick="location.href='index.html';">Shoot-em-up</li>
+            <li onclick="location.href='index.html';">Sidescrolling</li>
+            <li onclick="location.href='index.html';">Simulation / Strategy</li>
+            <li onclick="location.href='index.html';">Sports</li>
+            <li onclick="location.href='index.html';">Tetris Style</li>
+            <li onclick="location.href='index.html';">
+              Traditional (Board Games)
+            </li>
+            <br />
+            <li onclick="location.href='index.html';">ALL Games</li>
+            <li onclick="location.href='index.html';">Most Popular Games</li>
+            <li onclick="location.href='index.html';">Random Game!</li>
+            <li onclick="location.href='index.html';">Advanced Search</li>
+            <br />
+          </ul>
+          <p class="sidebar-list-subtitle dark-blue">Special Collections</p>
+          <ul class="yellow-arrow">
+            <li onclick="location.href='index.html';">Author List</li>
+            <li onclick="location.href='index.html';">Utilities & Apps</li>
+            <li onclick="location.href='index.html';">Multiplayer</li>
+            <li onclick="location.href='index.html';">Level Editors</li>
+            <li onclick="location.href='index.html';">Textmode / ASCII</li>
+            <li onclick="location.href='index.html';">Android Version</li>
+            <li onclick="location.href='index.html';">Apple iOS Version</li>
+          </ul>
         </div>
+        <div class="random-game-sidebar"></div>
 
+        <div class="site-content-sidebar gray-border site-nav-shadow">
+          <p class="sidebar-list-subtitle dark-green">Interact</p>
+          <ul class="yellow-arrow">
+            <li onclick="location.href='index.html';">Discussion Forum</li>
+            <li onclick="location.href='index.html';">Blog</li>
+            <li onclick="location.href='index.html';">Facebook</li>
+            <li onclick="location.href='index.html';">Twitter</li>
+            <li onclick="location.href='index.html';">YouTube</li>
+            <li onclick="location.href='index.html';">How You Can Help!</li>
+            <li onclick="location.href='index.html';">Contact</li>
+          </ul>
+          <p class="sidebar-list-subtitle dark-green">Site Content</p>
+
+          <ul class="yellow-arrow">
+            <li onclick="location.href='index.html';">FAQ</li>
+            <li onclick="location.href='index.html';">About this Site</li>
+            <li onclick="location.href='index.html';">DOSBox Guide</li>
+            <li onclick="location.href='index.html';">Guess the Game!</li>
+            <li onclick="location.href='index.html';">Game Bytes Magazine</li>
+            <li onclick="location.href='index.html';">Game Company Catalogs</li>
+            <li onclick="location.href='index.html';">Logo Archive</li>
+            <li onclick="location.href='index.html';">Credits & Thanks</li>
+            <li onclick="location.href='index.html';">Links</li>
+            <li onclick="location.href='index.html';">
+              Gog.com Good Old Games
+            </li>
+            <li onclick="location.href='index.html';">
+              Free Classic Flash Games
+            </li>
+          </ul>
+        </div>
+      </div>
         <div class="dosgames-container">
             <div class="gameTitle-container">
                 <p>CHAMP Kong<span class="gameTitle-span">1996</span>
@@ -231,7 +269,7 @@
                     </li>
                     <li class="li-game-desc">
                         <div>
-                            <iframe width="349" height="240" src="https://www.youtube.com/embed/Z37vvoP4bDg"
+                            <iframe width="330" height="240" src="https://www.youtube.com/embed/Z37vvoP4bDg"
                                 title="ChamProgramming - CHAMP Kong - 1996" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -274,7 +312,7 @@
             <div>
                 <ul class="dos-review">
                     <li class="li-tags" style="width: 28vw;">
-                        <ul style="margin-top: -5vh;">
+                        <ul style="margin-top: -8vh;">
                             <li class="button-li"><strong>DOSGames.com Review:</strong></li>
                             <li class="button-li button-li-img">
                                 <img src="https://static.thenounproject.com/png/2155121-200.png" width="90vw"
@@ -292,7 +330,7 @@
                     </li>
                     <li class="li-tags ul-review">
                         <figure>
-                            <img src="https://www.dosgames.com/screens/ckong.gif" alt="gamePic" width="250vw"
+                            <img src="https://www.dosgames.com/screens/ckong.gif" alt="gamePic" width="240vw"
                                 height="200vh" />
                             <figcaption>CHAMP Kong gameplay screenshot</figcaption>
                         </figure>
@@ -381,52 +419,63 @@
             </p>
             <br>
         </div>
-    </div>
-    <div class="footer">
-        <div>
-            <ul class="footer-nav-list">
+ 
+        <div class="footer">
+            <div>
+              <ul class="footer-nav-list blue">
                 <li>
-                    <a href=""><button>test</button></a>
+                  <a href=""><button>home</button></a>
                 </li>
                 <li>
-                    <a href=""><button>test</button></a>
+                  <a href=""><button>Games</button></a>
                 </li>
                 <li>
-                    <a href=""><button>test</button></a>
+                  <a href=""><button>Forum</button></a>
                 </li>
                 <li>
-                    <a href=""><button>test</button></a>
+                  <a href=""><button>FAQS</button></a>
                 </li>
                 <li>
-                    <a href=""><button>test</button></a>
-                </li>
-            </ul>
-
-            <ul class="footer-nav-list">
-                <li>
-                    <a href=""><button>test</button></a>
+                  <a href=""><button>LINKS</button></a>
                 </li>
                 <li>
-                    <a href=""><button>test</button></a>
+                  <a href=""><button>CONTACT</button></a>
+                </li>
+              </ul>
+    
+              <ul class="footer-nav-list teal">
+                <li>
+                  <a href=""><button class="facebook-button"></button></a>
                 </li>
                 <li>
-                    <a href=""><button>test</button></a>
+                  <a href=""><button class="twitter-button"></button></a>
                 </li>
                 <li>
-                    <a href=""><button>test</button></a>
+                  <a href=""><button class="youtube-button"></button></a>
                 </li>
                 <li>
-                    <a href=""><button>test</button></a>
+                  <a href=""><button class="RSS-button"></button></a>
                 </li>
-            </ul>
+              </ul>
+            </div>
+            <h4>
+              Enjoying DOSGames.com?
+              <a href="" class="link">Learn how you can help support it!</a>
+            </h4>
+            <h5>Copyright © Darren Hewer 2024.</h5>
+            <h5>Hosted by <a href=" " class="link">Liquidweb.</a></h5>
+            <h5>
+              View
+              <a href="" class="link"
+                >the DOSGames.com Disclaimer & Privacy Policy.
+              </a>
+            </h5>
+            <h5>
+              Thank you for visiting dosgames.com, and I hope you will enjoy your
+              stay. <a href="" class="link"> Contact me here.</a>
+            </h5>
+          </div>
         </div>
-        <h4>Lorem ipsum dolor sit amet consectetur molestiae, ipsum dicta!</h4>
-        <p>s;dl;sld</p>
-        <p>sawt43634</p>
-        <p>34662</p>
-        <p>wetwetwetw</p>
-    </div>
-    </div>
-</body>
-
-</html>
+      </body>
+    </html>
+    
