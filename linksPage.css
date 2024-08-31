@@ -1,0 +1,68 @@
+.gameTitle-container {
+    width: 90%;
+    font-size: 2rem;
+    position: relative;
+    top: 3vh;
+    left: 3vw;
+}
+
+.secondTitle {
+    font-size: 1.8rem;
+    top: 1vh;
+}
+
+.ul-link {
+    list-style: circle;
+    position: relative;
+    top: 4vh;
+    left: 4.8vw;
+    width: 45.5vw;
+    font-size: 1rem;
+}
+
+.ul-link li {
+    padding: 1vh 0;
+}
+
+.ul-link a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ul-link a:hover {
+    color: #0000aa;
+    text-decoration: underline;
+}
+
+.line {
+    background-color: #aaa;
+    height: 16px;
+    margin: 2rem 0 1rem 0;
+    width: 45vw;
+}
+
+.line:after {
+    background: url('https://www.dosgames.com/imgs/asciifadefillright.gif');
+    right: 15vw;
+}
+
+.line:before {
+    background: url('https://www.dosgames.com/imgs/asciifadefill.gif');
+    left: 35vw
+}
+
+.line:after,
+.line:before {
+    content: "";
+    height: 16px;
+    position: absolute;
+    width: 32px;
+}
+
+.end-ques-p {
+    position: relative;
+    top: 4vh;
+    left: 3vw;
+    width: 45.5vw;
+}
