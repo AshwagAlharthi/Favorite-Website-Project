@@ -169,3 +169,27 @@ button:hover {
     text-align: center;
     font-size: 0.65rem;
 }
+
+.line {
+    background-color: #aaa;
+    height: 16px;
+    margin: 2rem 0;
+    width: 45vw;
+}
+
+.line:after {
+    background: url('https://www.dosgames.com/imgs/asciifadefillright.gif');
+    right: 15vw;
+}
+
+.line:before {
+    background: url('https://www.dosgames.com/imgs/asciifadefill.gif');
+    left: 35vw
+}
+
+.line:after, .line:before {
+    content: "";
+    height: 16px;
+    position: absolute;
+    width: 32px;
+}
