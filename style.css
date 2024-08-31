@@ -154,6 +154,11 @@ ul {
   left: 3vw;
 }
 
+.secondTitle {
+  font-size: 1.8rem;
+  top: 1vh;
+}
+
 .ul-link {
   list-style: circle;
   position: relative;
@@ -195,9 +200,17 @@ ul {
   left: 35vw
 }
 
-.line:after, .line:before {
+.line:after,
+.line:before {
   content: "";
   height: 16px;
   position: absolute;
   width: 32px;
+}
+
+.end-ques-p {
+  position: relative;
+  top: 4vh;
+  left: 3vw;
+  width: 45.5vw;
 }
