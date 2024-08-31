@@ -1,498 +1,157 @@
 /* General styling section*/
-* {
-    margin: 0%;
-    padding: 0%;
-  }
-  td{
-    padding-top: 14px;
-    vertical-align: middle;
-  }
-  :root {
-    --main-blue: #0000aa;
-    --secondary-blue: #005;
-  
-    --teal :#0aa;
-  
-    --main-green: #080;
-    --secondary-green: #006600;
-    --highlight-green: #44bb44;
-   
-  
-    --side-bar-shadow: #464646;
-    --highlight-blue: #5555ff
-  }
-  
-  .dos-font {
-    font-family: "Verite 8x16", "IBM VGA 8x16", monospace;
-    font-size: 16px;
-    line-height: 16px;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-    
-  a {
-      text-decoration: none;
-      
-    }
-    
-  a:hover {
-      text-decoration: underline;
-      
-    }
-  .link{
-      color: #007bff;
-  }  
-  
-  
-  @font-face {
-    font-family: "IBM VGA 8x16";
-    src: url("WebPlus_IBM_VGA_8x16.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    
-  }
-  
-  .center {
-    text-align: center;
-  }
 
-  .left{
-    text-align: left;
-  }
-  
-  body {
-    width: 100%;
-    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-      sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  }
-  
-  .gray-border {
-    border: 1px groove #aaaaaa;
-  }
-  
-  /* General styling section*/
-  .search-header{
-    border-bottom: 1px solid grey ;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-  }
-  .main-content {
-    display: inline-block;
-    background-image: url("https://www.dosgames.com/imgs/heh2.gif");
-    width: 100vw;
-    padding-top: 3vh;
-  }
-  
-  .main-content > div {
-    display: inline-block;
-  }
-  
-  /* Navbar section -----------------------------------------*/
-  .navbar-container {
-    width: 100vw;
-  
-    background-image: url("https://www.dosgames.com/imgs/bg-logo.gif");
-    height: 16vh;
-    position: relative;
-  }
-  
-  .nav-main-content > li {
-    display: inline-block;
-    margin-left: 10vw;
-  }
-  
-  .nav-main-content{
-      text-align: right;
-      padding-right: 15vw;
-  }
-  
-  
-  .searchbar-container {
-    background-color: #555555;
-    text-align: right;
-    vertical-align: top;
-    color: #ffffff;
-    padding: 10px;
-    margin: 15px;
-    display: inline-block;
-    /* position: absolute; */
-    right: 10vw;
-    box-shadow: 0px 0px 0px 7px #555555;
-    margin-right: 10px;
-  }
-  
-  .searchbar-container > form > input {
-    background-color: #222222;
-    height: 4vh;
-  }
-  
-  .go-button {
-    background-color: #00c400;
-    border: 1px solid #00c400;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 17px;
-  
-    height: 4vh;
-    width: 5vh;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #00c400;
-  }
-  
-  .go-button:hover{
-      background-color: #09de09;;
-  } 
-  
-  .go-button-container {
-    display: inline-block;
-  }
-  
-  .nav-logo {
-    display: inline-block;
-    margin-right: 20px;
-    padding-right: 15px;
-    
-   
-  }
-  
-  /* Navbar section -----------------------------------------*/
-  
-  /* dos games styling section --------------------------------*/
 
-  .game-info-container  *{
-    margin-bottom: 15px;
-  }
-  .game-info-container >h4 >span{
-    font-size: 0.55em;
-    padding-left: 15px;
-  }
-  .results-table img{
-    margin: 20px;
 
-  }
-
-  .results-table h4 {
-   background-color:#e7e7e7;
-   font-size: 1.5em;
-   padding-left: 15px;
-    
-  }
- 
-  .results-table h3 {
-   
-    font-size: 1.2em;
-    font-weight: 500;
- 
-   }
-
-   .results-table a:not(.game-title) {
-   color: rgb(12, 33, 216);
-  padding-left: 10px;
-   
-   }
-
-   .game-title{
-    color: black;
-   }
-
-   .results-table td{
-    border-bottom: 1px solid #dedede;
-    margin-bottom: 10px;
-
-   }
- 
-  .dosgames-container {
-    width: 50%;
-    background-color: white;
-    padding: 25px;
-    margin-bottom: 5vw;
-    
-  }
-  
-  .game-list > li {
-    display: inline-block;
-    margin-left: 20px;
-  }
-  
-  .game-list img {
-    width:100%;
-   
-  }
-  
-.game-list label {
-   margin-right: 10px;
+.random-game-sidebar > p {
+  color: #00ffee;
 }
-  
-  .list-imgs-shadow img{
-      box-shadow: 0px 0px 12px -2px rgb(126, 126, 126)
-  }
-  
-  
-.game-list-subtitle{
-  font-size: 1.3em;
-  padding-top: 1.7vh;
-  padding-bottom: 1.7vh;
-    }
-  
-  .input-table input[type="text"],select{
-    width: 15vw;
-    height: 4vh;
-    
- 
-  }
-
-  .input-table{
-    text-align: end;
-    font-size: 1em;
-    font-weight: 400;
-    
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
-  }
-  
-  .align-top{
-    /* float: inline-end */
-    vertical-align: top;
-  }
-
-.text-align-left-tr  tr{
-  text-align: left;
-}
-
- select{
-  float: right;
- }
 
 .float-l {
   float: left;
 }
-.checkbox-row{
-padding-left: 20px;
-  }
-  
-  
-    
 
-  .hide-button {
-    background-color:transparent;
-    border:1px solid #299fff;
-    cursor:pointer;
-    color:#3f89ff;
-    font-family:Arial;
-    font-size:1em;
-    padding:7px ;
-    text-shadow:0px 0px 0px #2ee3ff;
-    transition: 0.3;
-    margin: 10px;
-  }
+.align-top {
+  /* float: inline-end */
+  vertical-align: top;
+}
 
-  .hide-button:hover {
-    background-color:#3f89ff;
-    color: #ffffff;
-      
-  }
+.text-align-left-tr tr {
+  text-align: left;
+}
 
-  .apply-button{
-    background-color: #0089eb;
-    color: #ffffff;
-    font-size: 1em;
-    padding: 10px;
-    border: 0px solid black;
+.left {
+  text-align: left;
+}
 
-  }
-    
-  fieldset {
-    padding-bottom: 15px;
+
+fieldset {
+  padding-bottom: 15px;
+}
+select {
+  float: right;
+  width: 15vw;
+  height: 4vh;
+}
+
+td {
+  padding-top: 14px;
+  vertical-align: middle;
+}
+
+
+/* General styling section*/
+
+
+/* input form section  --------------------------------*/
+.game-info-container * {
+  margin-bottom: 15px;
+}
+.game-info-container > h4 > span {
+  font-size: 0.55em;
+  padding-left: 15px;
+}
+.results-table img {
+  margin: 20px;
+}
+
+.results-table h4 {
+  background-color: #e7e7e7;
+  font-size: 1.5em;
+  padding-left: 15px;
+}
+
+.results-table h3 {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.results-table a:not(.game-title) {
+  color: rgb(12, 33, 216);
+  padding-left: 10px;
+}
+
+
+.results-table td {
+  border-bottom: 1px solid #dedede;
+  margin-bottom: 10px;
+}
+
+.game-title {
+  color: black;
+}
+
+.input-form-list > li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.input-form-list img {
+  width: 100%;
+}
+
+.input-form-list label {
+  margin-right: 10px;
+}
+
+.input-table {
+  text-align: end;
+  font-size: 1em;
+  font-weight: 400;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+.checkbox-row {
+  padding-left: 20px;
+}
+
+.hide-button {
+  background-color: transparent;
+  border: 1px solid #299fff;
+  cursor: pointer;
+  color: #3f89ff;
+  font-family: Arial;
+  font-size: 1em;
+  padding: 7px;
+  text-shadow: 0px 0px 0px #2ee3ff;
+  transition: 0.3;
+  margin: 10px;
+}
+
+.hide-button:hover {
+  background-color: #3f89ff;
+  color: #ffffff;
+}
+
+.apply-button {
+  background-color: #0089eb;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 10px;
+  border: 0px solid black;
+}
+
+/* input form section  --------------------------------*/
  
-  }
-  /* dos games styling section --------------------------------*/
-  
-  /* sidebar styling section --------------------------------*/
-  .sidebars {
-    margin-left: 15vw;
-    margin-right: 2vw;
-    float: left;
-    width: 15vw;
-  }
-  
-  .sidebars > div {
-    margin-bottom: 5vh;
-    color: #ffffff;
-  }
-  
-  .catagories-shadow {
-    box-shadow: 0px 2px 0px 4px var(--main-blue),
-      15px 15px 0px 4px var(--side-bar-shadow);
-  }
-  
-  .game-catagories-sidebar {
-    background-color: var(--main-blue);
-  }
-  
-  .random-game-sidebar >p{
-    color: #00ffee;
-  }
-  
-  .game-catagories-sidebar  li:hover{
-      background-color: var(--highlight-blue);
-      cursor: pointer; 
-  
-  }
-  .sidebar-list-subtitle {
-    margin: 7px;
-    padding: 5px;
-    padding-left: 10px;
-  }
-  
-  .dark-green {
-    background-color: var(--secondary-green);
-  }
-  
-  .dark-blue {
-    background-color: var(--secondary-blue);
-  }
-  
-  .yellow-arrow > li::before {
-    content: url("https://www.dosgames.com/imgs/bullet.gif");
-    padding-right: 5px;
-  }
-  
-  .random-game-sidebar {
-    text-align: center;
-    padding: 10px;
-    background-color: var(--main-blue);
-  }
-  .random-game-sidebar > img {
-    width: 90%;
-  }
-  .site-content-sidebar {
-    background-color: var(--main-green);
-  }
-  
-  .site-content-sidebar li:hover{
-        background-color: var(--highlight-green);
-        cursor: pointer; 
-    
-    }
-  
-  .site-nav-shadow {
-    box-shadow: 0px 0px 0px 4px var(--main-green),
-      15px 15px 0px 4px var(--side-bar-shadow);
-  }
 
-  .pages-container{
-    background-color:  var(--main-blue);
-    box-shadow: 0px 0px 0px 7px  var(--main-blue) ,6px 10px 0px 7px #8b8b8b; ;
-    color: #ffffff;
-    margin-bottom: 15px;
-    margin-top: 25px;
-    text-align: center;
+/* page div sesction--------------------------------*/
+.pages-container {
+  background-color: var(--main-blue);
+  box-shadow: 0px 0px 0px 7px var(--main-blue), 6px 10px 0px 7px #8b8b8b;
+  color: #ffffff;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  text-align: center;
+}
 
-  }
-
-  .pages-container >h4{
-   text-align: center;
-     }
-  .pages-container li{
-    text-align: center;
-    display: inline-block;
-    padding-left: 15px;
-    padding-right: 15px;
-    
-   }
-
-  /* sidebar styling section --------------------------------*/
-  
-  
-  /* Footer styling section --------------------------------*/
-  .footer {
-    background-color: #ffffff;
-    width: 100vw;
-    text-align: center;
-  }
-  
-  .footer-nav-list button{
-      border: 0px solid black ;
-    background-color: var(--main-blue);
-    color: #ffffff;
-    font-size: 0.9em;
-    font-weight: 400;
-    padding:0.3em 0.6em 0.3em 0.5em;
-      margin: 1em 0em 1em 0.1em;
-    text-transform: uppercase;
-    transition: 0.3s;
-    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  }
-  
-  .teal button{
-      background-color: var(--teal);
-      font-family: FontAwesome;
-  }
-  
-  
-  .blue button{
-     
-  
-      background-color: var(--main-blue);
-  
-  }
-  
-  
-  .footer-nav-list button:hover{
-  
-      background-color: black;
-      box-shadow: 0px 0px 9px #727272;
-    
-     
-    }
-    
-  
-  .footer-nav-list > li {
-    display: inline-block;
-  }
-  
-  .footer-nav-list {
-    display: inline-block;
-  }
-  .footer-nav-list > p {
-    display: inline-block;
-    margin: 5px;
-  }
-  
-  
-  .facebook-button:before{
-      content: "\f09a";
-      padding: 10px;
-  }
-  
-  .RSS-button:before{
-      content: "\f09e";
-      padding: 10px;
-  }
-  
-  .youtube-button:before{
-      content: "\f167";
-      padding: 10px;
-  }
-  
-  .twitter-button:before{
-      content: "\f099";
-      padding: 10px;
-  }
-  
-  .footer h3 ,h4, h5, h6{
-      font-weight: 400;
-  }
-  
-  .footer{
-     padding-bottom: 15px;
-  }
-  /* footer styling section --------------------------------*/
-  
-  
-  
-  
+.pages-container > h4 {
+  text-align: center;
+}
+.pages-container li {
+  text-align: center;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
