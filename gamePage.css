@@ -1,7 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";    
 }
 
 .gameTitle-container {
@@ -87,6 +87,17 @@ button:hover {
     vertical-align: top;
 }
 
+
+.li-game {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+.li-game a {
+    color: #212529;
+    font-weight:500;
+}
+
 .button-download {
     font-family: pxplus_ibm_vga8regular, monospace;
     font-size: 0.9rem;
@@ -155,8 +166,7 @@ button:hover {
 .p-game {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 0.9rem;
-    color: #212529;
-    margin-top: -3vh;
+    color: #212529;    
 }
 
 .ul-review {
@@ -192,4 +202,9 @@ button:hover {
     height: 16px;
     position: absolute;
     width: 32px;
+}
+
+.p-game-last {
+    font-size: 80%;
+    font-weight: 400;
 }
