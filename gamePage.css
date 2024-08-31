@@ -5,11 +5,11 @@
 }
 
 .gameTitle-container {
-    width: 95%;
+    width: 90%;
     font-size: 2rem;
     position: relative;
     top: 3vh;
-    left: 1.3vw;
+    left: 3vw;
 }
 
 .gameTitle-span {
@@ -173,7 +173,7 @@ button:hover {
 .line {
     background-color: #aaa;
     height: 16px;
-    margin: 2rem 0;
+    margin: 2rem 0 1rem 0;
     width: 45vw;
 }
 
