@@ -52,6 +52,7 @@ td {
 }
 .results-table img {
   margin: 20px;
+  box-shadow: 0px 2px 12px 2px #898989;
 }
 
 .results-table h4 {
