@@ -108,6 +108,7 @@ body {
 .searchbar-container > form > input {
   background-color: #222222;
   height: 4vh;
+  color: white;
 }
 
 .go-button {
