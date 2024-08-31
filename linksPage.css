@@ -49,7 +49,7 @@
 
 .line:before {
     background: url('https://www.dosgames.com/imgs/asciifadefill.gif');
-    left: 35vw
+    left: 36vw;
 }
 
 .line:after,
