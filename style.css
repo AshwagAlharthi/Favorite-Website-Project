@@ -1,357 +1,144 @@
 * {
-    margin: 0%;
-    padding: 0%;
-  }
+  margin: 0%;
+  padding: 0%;
+}
 
-   
-  .navbar {
-    width: 100vw;
-
-    background-image: url("https://www.dosgames.com/imgs/bg-logo.gif");
-    height: 16vh;
-  }
-  
-
-  .nav-logo {
-    display: inline-block;
-  }
-  .dosgames-container {
-    width: 54%;
-    border: 2px solid black;
-    background-color: white;
-    text-align: left;
-  }
-  
-  body {
-    width: 100%;
-  }
-  
-  .list > li {
-    border: 2px solid red;
-    display: inline-block;
-    text-align: center;
-  }
-  
-  .list > li > img {
-    width: 10vw;
-  }
-  .sidebars {
-    
-    margin-left: 15vw;
-    margin-right: 2vw;
-    float: left;
-    width: 15vw;
-  
-    
-  }
-  
-  .sidebars >div {
-    margin-bottom: 15px;
-    background-color: #0000aa;
-  }
-  
-  .game-catagories-sidebar{
-    box-shadow: 0px 0px 0px 2px #0000aa;
-    border: 1px groove #aaaaaa;
-    
-  }
-  
-  .main-content {
-    display: inline-block;
-    background-image: url("https://www.dosgames.com/imgs/heh2.gif");
-    width: 100vw;
-    padding-top: 3vh;
-  }
-  
-  .main-content > div {
-    display: inline-block;
-  }
  
-  ul {
-    list-style: none;
-  }
-  
-  /* .nav-content >li >img{
-   
-  } */
-  
-  .nav-content > li {
-    display: inline-block;
-    margin-left: 10vw;
-  }
-  
-  .searchbar-container {
-    background-color: #555555;
-    text-align: right;
-    color: #ffffff;
-    padding: 10px;
-    margin: 15px;
-    display: inline-block;
-  }
-  .searchbar-container > div > input {
-    background-color: #222222;
-    height: 4vh;
-  }
-  
-  .go-button {
-    background-color: #00c400;
-    border: 1px solid #00c400;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 17px;
-  
-    height: 4vh;
-    width: 5vh;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #00c400;
-  }
-  
-  .go-button-container {
-    display: inline-block;
-  }
-  
-  
-  .footer{
-   background-color: #ffffff;
-   width:100vw;
-   text-align: center
-  }
+.navbar {
+  width: 100vw;
 
-  .footer-nav-list>li>a>button{
-    background-color: #0000aa;
-    color: #ffffff; 
-    font-size: 1.3em;
-    padding: 0.2em  0.2em  0.2em  0.2em;
-  }
+  background-image: url("https://www.dosgames.com/imgs/bg-logo.gif");
+  height: 16vh;
+}
 
 
+.nav-logo {
+  display: inline-block;
+}
+.dosgames-container {
+  width: 54%;
+  border: 2px solid black;
+  background-color: white;
+  text-align: left;
+}
 
-  .footer-nav-list>li{
-   display: inline-block;
-  }
+body {
+  width: 100%;
+}
+
+.list > li {
+  border: 2px solid red;
+  display: inline-block;
+  text-align: center;
+}
+
+.list > li > img {
+  width: 10vw;
+}
+.sidebars {
   
-  .footer-nav-list{
-    display: inline-block;
-  }
-  .footer-nav-list>p{
-    display: inline-block;
-    margin: 5px;
-  }
+  margin-left: 15vw;
+  margin-right: 2vw;
+  float: left;
+  width: 15vw;
+
+  
+}
+
+.sidebars >div {
+  margin-bottom: 15px;
+  background-color: #0000aa;
+}
+
+.game-catagories-sidebar{
+  box-shadow: 0px 0px 0px 2px #0000aa;
+  border: 1px groove #aaaaaa;
+  
+}
+
+.main-content {
+  display: inline-block;
+  background-image: url("https://www.dosgames.com/imgs/heh2.gif");
+  width: 100vw;
+  padding-top: 3vh;
+}
+
+.main-content > div {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+/* .nav-content >li >img{
  
-  /* gamePage */
+} */
 
-  * {
-    margin: 0%;
-    padding: 0%;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";    
+.nav-content > li {
+  display: inline-block;
+  margin-left: 10vw;
 }
 
-.gameTitle-container {
-    width: 90%;
-    font-size: 2rem;
-    position: relative;
-    top: 3vh;
-    left: 3vw;
+.searchbar-container {
+  background-color: #555555;
+  text-align: right;
+  color: #ffffff;
+  padding: 10px;
+  margin: 15px;
+  display: inline-block;
+}
+.searchbar-container > div > input {
+  background-color: #222222;
+  height: 4vh;
 }
 
-.gameTitle-span {
-    float: right;
-    color: gray;
-    font-weight: lighter;
+.go-button {
+  background-color: #00c400;
+  border: 1px solid #00c400;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+
+  height: 4vh;
+  width: 5vh;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #00c400;
 }
 
-.table-aboutGame {
-    width: 24vw;
-    /* background-color: blue; */
-}
-
-.tableHeader {
-    width: 8.5vw;
-    /* background-color: gray; */
-    font-weight: bold;
-    font-size: 0.9rem;
-    text-align: right;
-    padding-right: 1vw;
-
-}
-
-td {
-    height: 4vh;
-    vertical-align: top;
-    font-size: 0.85rem;
-    padding: 0.3vh 0;
-
-}
-
-.tdSmallText {
-    color: #42464a;
-    font-size: 0.8rem;
-}
-
-.li-tags {
-    display: inline-block;
-    margin: 0 3px;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.a-contact-img:hover {
-    text-decoration: none;
-    opacity: 0.6;
-}
-
-.button-updateInfo {
-    border: 1px solid #aaa;
-    color: #555;
-    background-color: #fff;
-    font-size: 0.8rem;
-    padding: .2em .65em .3em .65em;
-    transition: all .25s;
-}
-
-.button-updateInfo:hover {
-    color: #fff;
-    background-color: rgb(174, 173, 173);
-}
-
-button:hover {
-    cursor: pointer;
-}
-
-.li-game-desc {
-    display: inline-block;
-    vertical-align: top;
+.go-button-container {
+  display: inline-block;
 }
 
 
-.li-game {
-    display: inline-block;
-    margin: 0 10px; 
+.footer{
+ background-color: #ffffff;
+ width:100vw;
+ text-align: center
 }
 
-.li-game a {
-    color: #212529;
-    font-weight:500;
+.footer-nav-list>li>a>button{
+  background-color: #0000aa;
+  color: #ffffff; 
+  font-size: 1.3em;
+  padding: 0.2em  0.2em  0.2em  0.2em;
 }
 
-.button-download {
-    font-family: pxplus_ibm_vga8regular, monospace;
-    font-size: 0.9rem;
-    box-shadow: 3px 3px 9px 0 rgba(0, 0, 0, .3);
-    background: #070;
-    border-color: transparent;
-    color: #fff;
-    padding: 0 0.5em;
-    margin-top: 2.5em;
-    width: 20vw;
-    height: 6vh;
-    text-shadow: 2px 1px 4px black;
+
+
+.footer-nav-list>li{
+ display: inline-block;
 }
 
-.button-download:hover {
-    background: #0a0;
+.footer-nav-list{
+  display: inline-block;
+}
+.footer-nav-list>p{
+  display: inline-block;
+  margin: 5px;
 }
 
-.button-li {
-    display: inline-block;
-    vertical-align: middle;
-}
 
-.button-li-img {
-    width: 2vw;
-    padding-top: 0.4rem;
-}
 
-.button-li-img2 {
-    padding-top: 0.4rem;
-}
-
-.exe-file {
-    font-family: pxplus_ibm_vga9regular;
-    font-size: 0.77rem;
-    text-transform: uppercase;
-}
-
-.button-play {
-    font-family: pxplus_ibm_vga8regular, monospace;
-    box-shadow: 3px 3px 9px 0 rgba(0, 0, 0, .3);
-    width: 20vw;
-    height: 6vh;
-    padding-left: 1em;
-    padding-right: 1em;
-    color: #007bff;
-    background-color: #fff;
-    border: 1px solid #007bff;
-    font-size: 1rem;
-}
-
-.button-play:hover {
-    background-color: #007bff;
-}
-
-.a-play:hover {
-    text-decoration: none;
-    color: #fff;
-}
-
-.dos-review {
-    margin-left: 2.5vw;
-    width: 50vw;
-}
-
-.p-game {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 0.9rem;
-    color: #212529;    
-}
-
-.ul-review {
-    text-align: center;
-    width: 20vw;
-    vertical-align: top;
-}
-
-.ul-review figcaption {
-    text-align: center;
-    font-size: 0.65rem;
-}
-
-.line {
-    background-color: #aaa;
-    height: 16px;
-    margin: 2rem 0 1rem 0;
-    width: 45vw;
-}
-
-.line:after {
-    background: url('https://www.dosgames.com/imgs/asciifadefillright.gif');
-    right: 15vw;
-}
-
-.line:before {
-    background: url('https://www.dosgames.com/imgs/asciifadefill.gif');
-    left: 35vw
-}
-
-.line:after, .line:before {
-    content: "";
-    height: 16px;
-    position: absolute;
-    width: 32px;
-}
-
-.p-game-last {
-    font-size: 0.7rem;
-    font-weight: 400;
-    position: relative;   
-    left: 3vw;
-    width: 95%;
-}
