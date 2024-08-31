@@ -1,0 +1,225 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.game-body-bg {
+    background-image: url("https://www.dosgames.com/screens/ckong.gif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.gameTitle-container {
+    width: 90%;
+    font-size: 2rem;
+    position: relative;
+    top: 3vh;
+    left: 3vw;
+}
+
+.gameTitle-span {
+    float: right;
+    color: gray;
+    font-weight: lighter;
+}
+
+.table-aboutGame {
+    width: 24vw;
+    /* background-color: blue; */
+}
+
+.tableHeader {
+    width: 8.5vw;
+    /* background-color: gray; */
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: right;
+    padding-right: 1vw;
+
+}
+
+td {
+    height: 4vh;
+    vertical-align: top;
+    font-size: 0.85rem;
+    padding: 0.3vh 0;
+
+}
+
+.tdSmallText {
+    color: #42464a;
+    font-size: 0.8rem;
+}
+
+.li-tags {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0000aa;
+}
+
+.a-contact-img:hover {
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.button-updateInfo {
+    border: 1px solid #aaa;
+    color: #555;
+    background-color: #fff;
+    font-size: 0.8rem;
+    padding: .2em .65em .3em .65em;
+    transition: all .25s;
+}
+
+.button-updateInfo:hover {
+    color: #fff;
+    background-color: rgb(174, 173, 173);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.li-game-desc {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.li-game {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.li-game a {
+    color: #212529;
+    font-weight: 500;
+}
+
+.button-download {
+    font-family: pxplus_ibm_vga8regular, monospace;
+    font-size: 0.9rem;
+    box-shadow: 3px 3px 9px 0 rgba(0, 0, 0, .3);
+    background: #070;
+    border-color: transparent;
+    color: #fff;
+    padding: 0 0.5em;
+    margin-top: 2.5em;
+    width: 20vw;
+    height: 6vh;
+    text-shadow: 2px 1px 4px black;
+}
+
+.button-download:hover {
+    background: #0a0;
+}
+
+.button-li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button-li-img {
+    width: 2vw;
+    padding-top: 0.4rem;
+}
+
+.button-li-img2 {
+    padding-top: 0.4rem;
+}
+
+.exe-file {
+    font-family: pxplus_ibm_vga9regular;
+    font-size: 0.77rem;
+    text-transform: uppercase;
+}
+
+.button-play {
+    font-family: pxplus_ibm_vga8regular, monospace;
+    box-shadow: 3px 3px 9px 0 rgba(0, 0, 0, .3);
+    width: 20vw;
+    height: 6vh;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #007bff;
+    font-size: 1rem;
+}
+
+.button-play:hover {
+    background-color: #007bff;
+}
+
+.a-play:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.dos-review {
+    margin-left: 2.5vw;
+    width: 50vw;
+}
+
+.p-game {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 0.9rem;
+    color: #212529;
+}
+
+.ul-review {
+    text-align: center;
+    width: 20vw;
+    vertical-align: top;
+}
+
+.ul-review figcaption {
+    text-align: center;
+    font-size: 0.65rem;
+}
+
+.line {
+    background-color: #aaa;
+    height: 16px;
+    margin: 2rem 0 1rem 0;
+    width: 45vw;
+}
+
+.line:after {
+    background: url('https://www.dosgames.com/imgs/asciifadefillright.gif');
+    right: 15vw;
+}
+
+.line:before {
+    background: url('https://www.dosgames.com/imgs/asciifadefill.gif');
+    left: 35vw
+}
+
+.line:after,
+.line:before {
+    content: "";
+    height: 16px;
+    position: absolute;
+    width: 32px;
+}
+
+.p-game-last {
+    font-size: 0.7rem;
+    font-weight: 400;
+    position: relative;
+    left: 3vw;
+    width: 95%;
+}
