@@ -16,6 +16,10 @@
   --highlight-blue: #5555ff;
 }
 
+.random-game-sidebar > p {
+  color: #00ffee;
+}
+
 .dos-font {
   font-family: "Verite 8x16", "IBM VGA 8x16", monospace;
   font-size: 16px;
@@ -231,7 +235,7 @@ body {
   padding: 10px;
   background-color: var(--main-blue);
 }
-.random-game-sidebar > img {
+.random-game-sidebar > a>img {
   width: 90%;
 }
 .site-content-sidebar {
