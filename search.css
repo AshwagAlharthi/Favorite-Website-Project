@@ -203,8 +203,12 @@
     vertical-align: top;
   }
 
-.text-align-left  tr{
+.text-align-left-tr  tr{
   text-align: left;
+}
+
+.text-align-right-input td:has(input){
+  text-align: right;
 }
 
 .float-l {
@@ -216,6 +220,25 @@ padding-left: 20px;
   
   
     
+
+  .hide-button {
+    background-color:transparent;
+    border:1px solid #299fff;
+    cursor:pointer;
+    color:#3f89ff;
+    font-family:Arial;
+    font-size:1em;
+    padding:7px ;
+    text-shadow:0px 0px 0px #2ee3ff;
+    transition: 0.3;
+    margin: 10px;
+  }
+
+  .hide-button:hover {
+    background-color:#3f89ff;
+    color: #ffffff;
+      
+  }
     
   /* dos games styling section --------------------------------*/
   
