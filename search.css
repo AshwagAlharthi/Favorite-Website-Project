@@ -167,6 +167,10 @@
   .game-info-container  *{
     margin-bottom: 15px;
   }
+  .game-info-container >h4 >span{
+    font-size: 0.55em;
+    padding-left: 15px;
+  }
   .results-table img{
     margin: 20px;
 
@@ -175,9 +179,8 @@
   .results-table h4 {
    background-color:#e7e7e7;
    font-size: 1.5em;
-  
-   
-  
+   padding-left: 15px;
+    
   }
  
   .results-table h3 {
@@ -187,10 +190,14 @@
  
    }
 
-   .results-table a {
+   .results-table a:not(.game-title) {
+   color: rgb(12, 33, 216);
+  padding-left: 10px;
    
-  padding-left: 15px;
-   
+   }
+
+   .game-title{
+    color: black;
    }
 
    .results-table td{
@@ -379,20 +386,25 @@ padding-left: 20px;
 
   .pages-container{
     background-color:  var(--main-blue);
-    box-shadow: 0px 0px 0px 7px  var(--main-blue);
+    box-shadow: 0px 0px 0px 7px  var(--main-blue) ,0px 0px 0px 7px  black ;
     color: #ffffff;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    text-align: center;
+
   }
 
   .pages-container >h4{
    text-align: center;
-
-  }
+     }
   .pages-container li{
     text-align: center;
     display: inline-block;
-
+    padding-left: 15px;
+    padding-right: 15px;
     
    }
+
   /* sidebar styling section --------------------------------*/
   
   
