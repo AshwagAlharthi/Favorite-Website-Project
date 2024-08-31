@@ -92,16 +92,26 @@ body {
   margin-left: 10vw;
 }
 
+.nav-main-content{
+    text-align: right;
+    padding-right: 15vw;
+}
+
+
 .searchbar-container {
   background-color: #555555;
   text-align: right;
+  vertical-align: top;
   color: #ffffff;
   padding: 10px;
   margin: 15px;
   display: inline-block;
-  position: absolute;
+  /* position: absolute; */
   right: 10vw;
+  box-shadow: 0px 0px 0px 7px #555555;
+  margin-right: 10px;
 }
+
 .searchbar-container > div > input {
   background-color: #222222;
   height: 4vh;
@@ -128,13 +138,17 @@ body {
 
 .nav-logo {
   display: inline-block;
+  margin-right: 20px;
+  padding-right: 15px;
+  
+ 
 }
 
 /* Navbar section -----------------------------------------*/
 
 /* dos games styling section --------------------------------*/
 .dosgames-container {
-  width: 54%;
+  width: 50%;
   background-color: white;
   padding: 25px;
   margin-bottom: 5vw;
@@ -330,3 +344,6 @@ padding-bottom: 1.7vh;
    padding-bottom: 15px;
 }
 /* footer styling section --------------------------------*/
+
+
+
