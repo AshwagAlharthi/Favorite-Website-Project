@@ -3,6 +3,12 @@
     margin: 0%;
     padding: 0%;
   }
+  td{
+    padding-top: 17px;
+
+    background-color: rgb(92, 92, 182);
+    vertical-align: middle;
+  }
   :root {
     --main-blue: #0000aa;
     --secondary-blue: #005;
@@ -70,7 +76,11 @@
   }
   
   /* General styling section*/
-  
+  .search-header{
+    border-bottom: 1px solid grey ;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
   .main-content {
     display: inline-block;
     background-image: url("https://www.dosgames.com/imgs/heh2.gif");
@@ -191,7 +201,7 @@
   .input-table input[type="text"],select{
     width: 15vw;
     height: 4vh;
-    margin-top: 15px;
+    
  
   }
 
